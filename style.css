@@ -1,0 +1,18 @@
+.indent{
+    text-indent: -28px;
+    padding-left: 28px;
+}
+
+.boochers{
+    background-size: cover;
+    color:rgb(9, 99, 6);
+    text-shadow: 1px 1px rgb(24, 23, 23);
+    background-position: center;
+    background-image: url(boochers.jpeg);
+    min-height: 300px;
+}
+
+.contact-us{
+    width:45em;
+    height:4rem;
+}
