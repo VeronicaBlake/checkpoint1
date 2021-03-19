@@ -9,10 +9,10 @@
     text-shadow: 1px 1px rgb(24, 23, 23);
     background-position: center;
     background-image: url(boochers.jpeg);
-    min-height: 300px;
+    min-height: 20rem;
 }
 
-.contact-us{
-    width:45em;
-    height:4rem;
+.contact-box{
+    width:35rem;
+    max-height:10rem;
 }
