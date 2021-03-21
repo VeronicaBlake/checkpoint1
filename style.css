@@ -1,3 +1,18 @@
+.root{
+    --hbk-green: rgb(106, 180, 103);
+    --pink: rgb(230, 129, 129);
+}
+
+
+@media only screen and (min-width: 768px) {
+    .big-background {
+      background-image: url(boochers.jpeg);
+    }
+    .title-tag  {
+      position:absolute;
+      bottom: -1.5rem;
+    }
+  }
 .indent{
     text-indent: -28px;
     padding-left: 28px;
@@ -23,8 +38,24 @@
 
 .material-icons{
     font-size:20px;
+    color: rgb(106, 180, 103);
 }
 
 #large{
     font-size: 50px;
+    color:black
+}
+
+#med-primary{
+    font-size: 24px;
+    color:rgb(230, 129, 129);
+    text-shadow:black;
+}
+
+#hbk-green{
+    background-color:  rgb(106, 180, 103);
+}
+
+.footer{
+    background-color: rgb(106, 180, 103);
 }
