@@ -21,9 +21,10 @@
     max-height:10rem;
 }
 
-.material-icons-lg{
-    font-size: 36px;
+.material-icons{
+    font-size:20px;
 }
-.material-icons-sm{
-    font-size: 24px;
+
+#large{
+    font-size: 50px;
 }
