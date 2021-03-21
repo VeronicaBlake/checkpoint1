@@ -3,6 +3,9 @@
     --pink: rgb(230, 129, 129);
 }
 
+.card{
+    margin:auto
+}
 
 @media only screen and (min-width: 768px) {
     .big-background {
@@ -13,7 +16,6 @@
       bottom: -1.5rem;
     }
   }
-  
 .indent{
     text-indent: -28px;
     padding-left: 28px;
