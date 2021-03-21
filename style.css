@@ -6,7 +6,6 @@
 .card{
     margin:auto
 }
-
 @media only screen and (min-width: 768px) {
     .big-background {
       background-image: url(boochers.jpeg);
@@ -28,6 +27,10 @@
     background-position: center;
     background-image: url(boochers.jpeg);
     min-height: 20rem;
+}
+
+.custom-font{
+    font-family: 'Comfortaa', cursive;
 }
 
 .length-longer{
