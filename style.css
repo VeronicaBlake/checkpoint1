@@ -5,29 +5,29 @@
 
 .card{
     margin:auto;
-    border: none;
 }
-
 
 @media only screen and (max-width: 768px) {
     .hidden{
         display:none
     }
-    .position-media{
-        position:static
+    /*I didn't figure out how to format the child on mobile view while still floating it on medium and above, so I got rid of it.*/ 
+    .child{
+        display:none
     }
-
 }
 
 .parent{
-  position: relative;
+    position:relative;
 }
 
-.child{
+.float{
     position:absolute;
-    left:50%;
-
+    bottom: -1.1rem;
+    right:1rem;
+    z-index:1
 }
+
 
 .boochers{
     background-size: cover;
