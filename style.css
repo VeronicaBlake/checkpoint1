@@ -6,19 +6,21 @@
 .card{
     margin:auto
 }
-@media only screen and (min-width: 768px) {
-    .big-background {
-      background-image: url(boochers.jpeg);
-    }
-    .title-tag  {
-      position:absolute;
-      bottom: -1.5rem;
+@media only screen and (max-width: 768px) {
+    .hidden{
+        display:none
     }
   }
-.indent{
-    text-indent: -28px;
-    padding-left: 28px;
-}
+
+  .parent{
+    position: relative;
+  }
+
+  .child{
+      position:absolute;
+      left:50%;
+
+  }
 
 .boochers{
     background-size: cover;
