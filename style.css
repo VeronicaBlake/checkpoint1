@@ -12,21 +12,21 @@
         display:none
     }
     /*I didn't figure out how to format the child on mobile view while still floating it on medium and above, so I got rid of it.*/ 
-    .child{
-        display:none
+}
+@media only screen and (min-width: 768px) {
+    .float{
+        position:absolute;
+        bottom: -1.1rem;
+        right:1rem;
+        z-index:1
     }
+    
 }
 
 .parent{
     position:relative;
 }
 
-.float{
-    position:absolute;
-    bottom: -1.1rem;
-    right:1rem;
-    z-index:1
-}
 
 
 .boochers{
