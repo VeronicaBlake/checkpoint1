@@ -4,23 +4,30 @@
 }
 
 .card{
-    margin:auto
+    margin:auto;
+    border: none;
 }
+
+
 @media only screen and (max-width: 768px) {
     .hidden{
         display:none
     }
-  }
+    .position-media{
+        position:static
+    }
 
-  .parent{
-    position: relative;
-  }
+}
 
-  .child{
-      position:absolute;
-      left:50%;
+.parent{
+  position: relative;
+}
 
-  }
+.child{
+    position:absolute;
+    left:50%;
+
+}
 
 .boochers{
     background-size: cover;
@@ -33,10 +40,6 @@
 
 .custom-font{
     font-family: 'Comfortaa', cursive;
-}
-
-.length-longer{
-    min-width:30rem;
 }
 
 .contact-box{
